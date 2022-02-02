@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-- css file -->
+    <link href="../../styles.css" rel="stylesheet">
+    <title>badge</title>
+</head>
+<body>
+    <nav class="navigation-container">
+        <div class="nav-brand">FALCON</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item">
+                <a class="link link-active" href="">HOME</a>
+            </li>
+            <li class="list-item">
+                <a class="link" href="">DOCS</a>
+            </li>
+            <li class="list-item">
+                <a class="link" href="">GITHUB</a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="side-navigation-container">
+        <div class="nav header">
+            <h2>Getting Started</h2>
+            <div class="nav-content">
+                <a href="" >Introduction</a></div>
+            <div class="nav-content">
+                <a href="">Colors</a>
+            </div>
+            <div class="nav-content">
+                <a href="">Typography</a>
+            </div>
+
+        </div>
+        <div class="nav header">
+            <h2>Components</h2>
+            <div class="nav-content">
+                <a href="../alert/alert.html">Alerts</a></div>
+            <div class="nav-content">
+                <a href="../../components/avatar/avatar.html">Avatar</a>
+            </div>
+            <div class="nav-content">
+                <a href="../badge/badge.html">Badge</a>
+            </div>
+            <div class="nav-content">
+                <a href="../button/button.html">Button</a>
+            </div>
+            <div class="nav-content">
+                <a href="../card/card.html">Card</a>
+            </div>
+            <div class="nav-content">
+                <a href="../image/image.html">Image</a>
+            </div>
+            <div class="nav-content">
+                <a href="../input/input.html">Input</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- badge -->
+    <main class="page-content">
+        <section class="section-badge">
+            <h1>Badge</h1>
+            <p class="section-about">We see badges everywhere. Whether it be messages, notifications etc. </p>
+    
+            <h2 class="sub-header">Badge on avatar</h2>
+            <p class="section-about">Badge on avatar shows the current state of the user (online, offline or disabled) on any app . It has left and right positions.
+            <br>
+            There are four sizes of badges: xlg, lg, md and sm.</p>
+                <div class="badge-avatar">
+                <img class="badge-avatar-img-xlg" src="../images/avatar fox.jpg" />
+                <span class="badge badge-xlg-right"></span>
+    
+                <img class="badge-avatar-img-lg" src="../images/avatar fox.jpg" />
+                <span class="badge badge-lg-left"></span>
+    
+                <img class="badge-avatar-img-md" src="../images/avatar fox.jpg" />
+                <span class="badge badge-md-right"></span>
+
+                <img class="badge-avatar-img-sm" src="../images/avatar fox.jpg" />
+                <span class="badge badge-sm-left"></span>
+    
+            </div>
+            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FRight%2520position%2520%257C%2520XL%2520size%250A%253Cimg%2520class%253D%2522badge-avatar-img-xlg%2522%2520src%253D%2522...%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-xlg-right%2522%253E%253C%252Fspan%253E%250A%250A%252F%252FLeft%2520position%2520%257C%2520L%2520size%2520%2520%2520%250A%253Cimg%2520class%253D%2522badge-avatar-img-lg%2522%2520src%253D%2522...%2522%2520%252F%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-lg-left%2522%253E%253C%252Fspan%253E" style="width: 522px; height: 300px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+            </iframe>
+    
+            <div class="divider"></div>
+
+            <h2 class="sub-header">Badge on icon</h2>
+            <p class="section-about">Badge on icon shows the number of notifications on an icon.  </p>
+                <div class="badge-icon">
+                <img class="badge-img" src="../images/IcRoundHome.svg" />
+                <button class="btn-icon btn-icon-home">15</button>
+
+                <img class="badge-img" src="../images/IcRoundEmail.svg">
+                <button class="btn-icon btn-icon-email">9+</button>
+
+                <img class="badge-img" src="../images/IcRoundNotifications.svg" />
+                <button class="btn-icon btn-icon-notif">99+</button>
+                </div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522badge-img%2522%2520src%253D%2522...%2522%2520%252F%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon-home%2522%253E15%253C%252Fbutton%253E" style="width: 522px; height: 207px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+        </section> 
+    
+    </main>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
