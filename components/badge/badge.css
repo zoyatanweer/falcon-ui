@@ -1,65 +1,40 @@
 .badge-avatar, .badge-icon{
     margin:2rem auto 2rem 0;
 }
-.badge-avatar-img-xlg{
+.badge, .btn-icon{
     border-radius: 50%;
-    height:15rem;
-    width:15rem;
-}
-.badge-avatar-img-lg{
-    border-radius: 50%;
-    height:13rem;
-    width:13rem;
-}
-.badge-avatar-img-md{
-    border-radius: 50%;
-    height:11rem;
-    width:11rem;
-}
-.badge-avatar-img-sm{
-    border-radius: 50%;
-    height:9rem;
-    width:9rem;
+    position:absolute;
 }
 .badge-xlg-right{
     background-color: red;
-    border-radius: 50%;
     height:3.5rem;
     width:3.5rem;
-    position:absolute;
-    top:635px;
-    left:420px;
+    top:63.5rem;
+    left:42rem;
     border: 1px solid red;
 }
 .badge-lg-left{
     background-color: yellowgreen;
-    border-radius: 50%;
     height:2.5rem;
     width:2.5rem;
-    position:absolute;
-    top: 635px;
-    left: 475px;
+    top: 63.5rem;
+    left: 47.5rem;
     border:1px solid yellowgreen;
 }
 .badge-md-right{
-      background-color:#adb5bd;
-      border-radius: 50%;
-      height:2.2rem;
-      width:2.2rem;
-      position:absolute;
-      top:650px;
-      left: 685px;
-      border: 1px solid #adb5bd; 
-      /* #f72585 */
+    background-color:#adb5bd;
+    height:2.2rem;
+    width:2.2rem;
+    top:65rem;
+    left: 68.5rem;
+    border: 1px solid #adb5bd; 
 }
 .badge-sm-left{
     background-color:#ffba08;
-    border-radius: 50%;
     height:2rem;
     width:2rem;
-    position:absolute;
-    top:650px;
-    left: 725px;
+    top:65rem;
+    left: 72.5rem;
     border: 1px solid #ffba08;
 }
 
@@ -68,12 +43,10 @@
     width:5rem;
 }
 .btn-icon{
+    background-color: red;
     height: 3rem;
     width: 3rem;
-    background-color: red;
     color: white;
-    border-radius: 50%;
-    position: absolute;
 }
 .btn-icon-home{
     left:345px;
