@@ -1,0 +1,58 @@
+.badge-container, .badge-icon{
+    margin:2rem auto 2rem 0;
+}
+.badge, .btn-icon{
+    border-radius: 50%;
+    position:absolute;
+}
+.badge-xlg-right{
+    background-color: red;
+    height:3.5rem;
+    width:3.5rem;
+    top:65rem;
+    left:42rem;
+    border: 1px solid red;
+}
+.badge-lg-left{
+    background-color: yellowgreen;
+    height:2.5rem;
+    width:2.5rem;
+    top:65.5rem;
+    left: 47.5rem;
+    border:1px solid yellowgreen;
+}
+.badge-md-right{
+    background-color:#adb5bd;
+    height:2.2rem;
+    width:2.2rem;
+    top:67rem;
+    left: 68.5rem;
+    border: 1px solid #adb5bd; 
+}
+.badge-sm-left{
+    background-color:#ffba08;
+    height:2rem;
+    width:2rem;
+    top:67rem;
+    left: 72.5rem;
+    border: 1px solid #ffba08;
+}
+.badge-img{
+    height: 5rem;
+    width:5rem;
+}
+.btn-icon{
+    background-color: red;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+}
+.btn-icon-home{
+    left:345px;
+}
+.btn-icon-email{
+    left:400px;
+}
+.btn-icon-notif{
+    left:450px;
+}
