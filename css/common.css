@@ -1,0 +1,144 @@
+:root{
+    --primary-color:#48cae4;
+    --secondary-color:#023e8a;
+    --background-color:#f8f9fa;
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: #6c757d; 
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.6rem;
+    margin:0 0 3rem 0;
+    background-color: var(--background-color);
+}
+.page-content{
+    margin-left: 300px; /* Same as the width of the sidenav */
+    margin-top:0;
+    padding:0px 10px;
+}
+h1{
+    font-size:4.5rem;
+    margin-left:0;
+}
+h2{
+    font-size: 1.8rem;
+    color: #6c757d;
+    font-weight:600;
+    margin-left: 3rem;
+    padding: 0;
+}
+
+/* navigation */
+.link{
+    padding: 0.5rem 1rem;
+    text-decoration:none;
+}
+.list-non-bullet{
+    list-style:none; 
+}
+.list-item{
+    display:inline;
+    padding:1.5rem; 
+}
+.list-item:hover{
+    font-weight:600;
+}
+.navigation-container{
+    background-color: #56cfe1;
+    color:#ffffff;
+    padding:0.2rem 0.5rem 3rem 0;
+    border-bottom-left-radius: 1rem;
+}
+.navigation-container .nav-brand{
+    font-weight:bold;
+    font-size: 2.5rem;
+    text-align:left;
+}
+.nav-brand{
+    text-align:left;
+    margin:2rem 0 2rem 2rem;
+}
+.navigation-container .link{
+    background-color: #56cfe1;
+    color:white;
+    font-size:1.8rem;
+}
+.navigation-container .nav-pills{
+    text-align:right;
+}
+
+/* side-navigation */
+.side-navigation-container{
+    background-color: var(--background-color);
+    font-size:1.2rem;
+    height: 100%;
+    left: 1.87rem; 
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top:4rem;
+    position: fixed;
+    top: 12.5rem;
+    width: 200px;
+    z-index: 1;
+}
+.nav-content a:hover{
+    color:#5e60ce;
+    font-weight:500;
+}
+ul{
+    padding-inline-start: 0px;
+    list-style:none;
+    margin-bottom:0;
+}
+  /* The navigation menu links */
+.nav-content {
+    color: #6c757d;
+    display: block;
+    font-size: 1.8rem;
+    padding:0.8rem;
+    margin-left:25px;  
+    text-decoration: none;
+}
+.side-nav{
+    color: #6c757d;
+    margin-left:0;
+}
+.link-active{
+    font-weight:bold;
+    color:#5e60ce;
+
+}
+/* components section */
+.section-about{
+    color: #6c757d;
+    font-weight: 500;
+    font-size:2.2rem;
+    line-height:4.2rem;
+    margin:0 0 1rem 0;
+    text-align: left;
+    width:70rem;
+}
+.sub-header{
+    color:#023e8a;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left:0;
+    text-align:left;
+    margin-bottom:0;
+    margin-top:4rem;
+}
+span{
+    color:#5e60ce;
+}
+.divider{
+    height: 0.2rem;
+    width:90rem;
+    background-color:indianred;
+}
+iframe{
+    margin-bottom: 2rem;
+}
