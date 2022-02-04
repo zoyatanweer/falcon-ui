@@ -1,3 +1,4 @@
+@import url(./css/common.css);
 @import url(../components/alert/alert.css);
 @import url(./components/avatar/avatar.css);
 @import url(./components/badge/badge.css);
@@ -5,7 +6,3 @@
 @import url(../components/card/cards.css);
 @import url(../components/image/image.css);
 @import url(../components/input/input.css);
-
-
-
-@import url(./css/common.css);

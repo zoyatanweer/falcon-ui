@@ -1,0 +1,117 @@
+
+/* button */
+.btn{
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: 1.8rem;
+    height: 50px;
+    width:12rem;
+    margin:3px;
+    padding: 5px;
+  }
+  
+  /* contained btn*/
+  .btn-primary{
+    background-color: #4361ee;
+    color: white;
+  }
+  .btn-secondary{
+    background-color: #e5e5e5;
+    color: #6c757d;
+  }
+  .btn-primary:hover{
+    background-color: #3f37c9;
+    color:white;
+  } 
+  .btn-secondary:hover{
+    background-color: #adb5bd;
+    color: #ffffff;
+  }
+  .btn-disabled{
+    background-color: #a8dadc;
+    color: #457b9d;
+    cursor:auto;
+  }
+  
+  /* outlined btn */
+  .box-shadow:hover{
+    box-shadow: 2px 2px 2px #adb5bd;
+  }
+  .btn-outline-primary{
+    background-color: #ffffff;
+    border:2px solid #3f37c9;
+    color:#4361ee; 
+  }
+  .btn-outline-secondary{
+    background-color: #ffffff;
+    border:2px solid #6c757d;
+    color:#6c757d;
+  }
+  .btn-outline-warning{
+    background-color: #ffffff;
+    border:2px solid #ffba08;
+    color:#ffba08;
+  }
+  .btn-outline-success{
+    background-color: #ffffff;
+    border:2px solid #80b918;
+    color:#80b918;
+  }
+  .btn-outline-danger{
+    background-color: #ffffff;
+    border:2px solid #d00000;
+    color:#d00000;
+  }
+  
+  /* link btn */
+  .btn-link{
+    background-color: #4895ef;
+    color:#ffffff;
+  }
+  .btn-link a{
+    text-decoration: none;
+    color:#ffffff;
+  }
+  
+  /* icon btn */
+  .btn-icons{
+    background-color: #4361ee;
+    color:white;
+    height:5rem;
+    width:14rem;
+    text-align:left;
+  }
+  
+  /* floating action btn */
+  .btn-floating-action{
+    background-color: #4361ee;
+    border-radius: 50%;
+    color:#ffffff;
+    height:6rem;
+    width:6rem;
+  }
+    /* .link {
+      background-color: #e5e5e5;
+      border: none;
+      border-radius: 10px;
+      color: #6c757d;
+      font-size: 1.2rem;
+      height: 50px;
+      padding: 5px;
+      /* margin:5px; */
+      /* width: 110px;
+    } */ */
+    .icon{
+      border:none;
+      background-color: white;
+    }
+    .floating{
+      background-color: violet;
+      border:none;
+      border-radius: 50%;
+      font-size:2.5rem;
+      height:50px;
+      width:50px;
+    }
+    
