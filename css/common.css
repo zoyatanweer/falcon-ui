@@ -5,6 +5,71 @@
     font-size: 62.5%;
 }
 
+/* landing page */
+.left-header{
+    color:black;
+    font-size:3rem;
+    font-weight: 700;
+    margin:4rem;
+    padding-top:10rem;
+}
+.navigation-landing .nav-pills{
+    text-align: right;
+}
+.left-nav{
+    text-align: left;
+    /* margin:2rem 1rem 0 1rem; */
+}
+.right-nav li{
+    font-weight: 500;
+    margin: 0 1rem;
+    list-style: none;
+    display: inline;
+    margin-block-start: 0;
+}
+.right-nav li:hover{
+    color: #48cae4;
+    font-weight: 600;
+}
+.landing-page-main{
+    text-align: center;
+}
+.landing-page{
+    font-size: 4.5rem;
+    font-weight: 700;
+    width:50rem;
+    margin:8rem 40rem 3rem;
+}
+.sub-head{
+    font-size: 2.5rem;
+    font-weight: 500;
+    width:50rem;
+    margin:2rem 40rem;
+}
+.landing-btn-install, .landing-btn-docs{
+    border-radius: 10px;
+    font-size: 2rem; 
+    margin: 1rem;
+    padding:1rem;
+}
+.landing-btn-install{
+    background-color: #48cae4;
+    color:#f8f9fa;
+}
+.landing-btn-docs{
+    background-color: #f8f9fa;
+    color: #484848;
+    border:2px solid #48cae4;
+}
+.landing-btn-install:hover{
+    background-color:#00b4d8 ;
+    color:#f8f9fa;
+}
+.landing-btn-docs:hover{
+    background-color: #48cae4;
+    color:#f8f9fa;
+}
+
 a{
     text-decoration: none;
     color: #6c757d; 
