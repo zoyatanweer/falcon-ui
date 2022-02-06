@@ -16,29 +16,51 @@
     --alert-danger-color:#85182a;
     --alert-warning-bg-color:#ffe566;
     --alert-warning-color:#ffaa00;
+    --btn-primary-bg-color:#4361ee;
+    --btn-color:#ffffff;
+    --btn-primary-hover-color:#3f37c9;
+    --btn-secondary-bg-color:#e5e5e5;
+    --btn-secondary-color:#6c757d;
+    --btn-secondary-hover-color:#adb5bd;
+    --btn-disabled-bg-color:#4895ef;
+    --btn-warning-bg-color:#ffba08;
+    --btn-success-bg-color:#80b918;
+    --btn-danger-bg-color:#d00000;
     font-size: 62.5%;
 }
 
 /* landing page */
 .left-header{
-    color:black;
+    color:var(--primary-color);
     font-size:3rem;
     font-weight: 700;
     margin:4rem;
     padding-top:10rem;
+    /* margin:1rem auto 1rem 4.8rem; */
+
 }
-.navigation-landing .nav-pills{
+.navigation-landing{
+    display:flex;
+    justify-content: space-around;
+} 
+.nav-pills{
     text-align: right;
 }
 .left-nav{
     text-align: left;
+    margin:1rem auto 0 4.8rem;
 }
 .right-nav li{
     font-weight: 500;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     list-style: none;
     display: inline;
-    margin-block-start: 0;
+    padding: 20px 10px;
+}
+.right-nav{
+    margin-block-start:0 ;
+    margin: 2rem 1rem;
+
 }
 .right-nav li:hover{
     color: var(--primary-color);
@@ -82,7 +104,13 @@
     background-color: var(--primary-color);
     color:var(--background-color);
 }
-
+.landing-link:hover{
+    color:var(--primary-color);
+}
+.landing-link-active{
+    color:var(--primary-color);
+    font-weight: 600;
+}
 a{
     text-decoration: none;
     color: var(--alert-secondary-color); 
