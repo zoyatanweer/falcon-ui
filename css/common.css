@@ -36,8 +36,6 @@
     font-weight: 700;
     margin:4rem;
     padding-top:10rem;
-    /* margin:1rem auto 1rem 4.8rem; */
-
 }
 .navigation-landing{
     display:flex;
@@ -52,15 +50,13 @@
 }
 .right-nav li{
     font-weight: 500;
-    /* margin: 0 1rem; */
     list-style: none;
     display: inline;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
 }
 .right-nav{
     margin-block-start:0 ;
     margin: 2rem 1rem;
-
 }
 .right-nav li:hover{
     color: var(--primary-color);
@@ -218,7 +214,6 @@ ul{
 .link-active{
     font-weight:bold;
     color:#5e60ce;
-
 }
 /* components section */
 .section-about{
