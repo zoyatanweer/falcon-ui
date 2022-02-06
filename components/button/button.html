@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <!-- google fonts
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet"> -->
     <!-- css file -->
     <link href="../../styles.css" rel="stylesheet">
     <title>Button</title>
@@ -46,22 +42,25 @@
             <h2>Components</h2>
             <ul>
                 <li class="nav-content">
-                    <a class="side-nav link-active" href="../../components/alert/alert.html">Alerts</a>
+                    <a class="side-nav" href="../alert/alert.html">Alerts</a>
                 </li>
                 <li class="nav-content">
-                    <a class="side-nav" href="../../components/">Avatar</a>
+                    <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
                 </li>
                 <li class="nav-content">
                     <a class="side-nav" href="../badge/badge.html">Badge</a>
                 </li>
                 <li class="nav-content">
-                    <a class="side-nav" href="../../components/button/button.html">Button</a>
+                    <a class="side-nav link-active" href="../button/button.html">Button</a>
                 </li>
                 <li class="nav-content">
                     <a class="side-nav" href="../card/card.html">Card</a>
                 </li>
                 <li class="nav-content">
                     <a class="side-nav" href="../image/image.html">Image</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../input/input.html">Input</a>
                 </li>
             </ul>
         </div>
@@ -70,12 +69,12 @@
     <!-- button -->
     <main class="page-content">
     <section class="section-button">
-        <h1>Button</h1>
+        <h1 class="head-topic">Button</h1>
         <p class="section-about">
             Buttons are also called as call to action. Here are different types of buttons. You need to add respective classes, and then you are good to use them.
         </p>
         <h2 class="sub-header">Contained Button</h2>
-        <p class="section-about">Contained buttons are mainly to create a maximum impact on the user. </p>
+        <p class="section-about">Contained buttons are mainly to create a maximum impact on the user. Use the class <span>btn btn-primary</span> or <span>btn-secondary</span> to generate desired button. For creating hovering effect, use the box-shadow class. </p>
         <div class="contained-btn">
             <button class="btn box-shadow btn-primary">Primary</button>
             <button class="btn box-shadow btn-secondary">Secondary</button>
@@ -87,7 +86,7 @@
         <div class="divider"></div>
 
         <h2 class="sub-header">Outlined Button</h2>
-        <p class="section-about">Outlined</p>
+        <p class="section-about">Outlined buttons can be created by using the class <span>btn-outline- </span>and then adding the required color of button.</p>
         <div class="outlined-btn">
             <button class="btn box-shadow btn-outline-primary">Primary</button>
             <button class="btn box-shadow btn-outline-secondary">Secondary</button>
@@ -101,7 +100,7 @@
         <div class="divider"></div>
 
         <h2 class="sub-header">Link Button</h2>
-        <p class="section-about">For attaching a link at the button, use the link button.</p>
+        <p class="section-about">For attaching a link at the button, use the link button. Use the class <span>btn-link</span>.</p>
         <div class="outlined-btn">
             <button class="btn box-shadow btn-link">
                 <a href="...">Link</a>
@@ -113,7 +112,7 @@
         <div class="divider"></div>
 
         <h2 class="sub-header">Icon Button</h2>
-        <p class="section-about">For attaching a link at the button, use the link button.</p>
+        <p class="section-about">Some buttons cannot be understood just by looking at their icons. So, for those buttons, use the icon button as shown below. Use the class <span>btn-icons</span>.</p>
         <div class="icon-btn">
             <button class="btn btn-icons">
                 <i class="fas fa-home fa-2x"></i>Home
@@ -131,7 +130,7 @@
         <div class="divider"></div>
 
         <h2 class="sub-header">Floating Action Button</h2>
-        <p class="section-about">For attaching a link at the button, use the link button.</p>
+        <p class="section-about">Floating action buttons can be customized by adding the font-awesome icon of your choice. Use the class <span>btn-floating-action</span>.</p>
         <div class="floating-btn">
             <button class="btn btn-floating-action">
                 <i class="far fa-star fa-2x"></i>
@@ -145,8 +144,7 @@
         </div>
         <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2522%253E%250A%2520%2509%253Ci%2520class%253D%2522far%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2522%253E%250A%2520%2520%2509%253Ci%2520class%253D%2522fas%2520fa-arrow-right%2520fa-2x%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-floating-action%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253C%252Fbutton%253E" style="width: 555px; height: 338px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
         </iframe>
-
-           
+      
     </section>
     </main>
     
