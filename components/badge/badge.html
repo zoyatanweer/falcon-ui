@@ -6,13 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <!-- css file -->
     <link href="../../styles.css" rel="stylesheet">
-    <title>badge</title>
+    <title>Falcon UI | Badge</title>
 </head>
 <body>
     <nav class="navigation-container">
@@ -33,8 +29,6 @@
         <div class="nav header">
             <h2>Getting Started</h2>
             <div class="nav-content">
-                <a href="">Introduction</a></div>
-            <div class="nav-content">
                 <a href="">Colors</a>
             </div>
             <div class="nav-content">
@@ -44,26 +38,35 @@
         </div>
         <div class="nav header">
             <h2>Components</h2>
-            <div class="nav-content">
-                <a href="../alert/alert.html">Alerts</a></div>
-            <div class="nav-content">
-                <a href="../../components/avatar/avatar.html">Avatar</a>
-            </div>
-            <div class="nav-content">
-                <a href="../../components/badge/badge.html">Badge</a>
-            </div>
-            <div class="nav-content">
-                <a href="../button/button.html">Button</a>
-            </div>
-            <div class="nav-content">
-                <a href="../card/card.html">Card</a>
-            </div>
-            <div class="nav-content">
-                <a href="../image/image.html">Image</a>
-            </div>
-            <div class="nav-content">
-                <a href="../input/input.html">Input</a>
-            </div>
+            <ul>
+                <li class="nav-content">
+                    <a class="side-nav" href="../alert/alert.html">Alerts</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../badge/badge.html">Badge</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../button/button.html">Button</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../card/card.html">Card</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav link-active" href="../image/image.html">Image</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../input/input.html">Input</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../lists/lists.html">Lists</a>
+                </li>
+                <li class="nav-content">
+                    <a class="side-nav" href="../rating/rating.html">Rating</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -75,7 +78,8 @@
             <h2 class="sub-header">Badge on avatar</h2>
             <p class="section-about">Badge on avatar shows the current state of the user (online, offline or disabled) on any app . It has left and right positions.
             <br>
-            There are four sizes of badges: xlg, lg, md and sm.</p>
+            There are four sizes of badges: xlg, lg, md and sm.
+            <br>To use badges, use the class <span>badge-(size)-(position) </span>.Replace the size and postion with specified given below. </p>
                 <div class="badge-container">
                 <img class="avatar-round avatar-xlg" src="../../assets/images/avatar fox.jpg" />
                 <span class="badge badge-xlg-right"></span>
