@@ -203,7 +203,7 @@ ul{
     color: var(--alert-secondary-color);
     display: block;
     font-size: 1.6rem;
-    padding:8px;
+    padding:6px;
     margin-left:25px;  
     text-decoration: none;
 }
