@@ -1,0 +1,56 @@
+.textarea{
+    border:2px solid black;
+    border-radius: 1rem;
+    height: 15rem;
+    width: 30rem;
+    margin-left:16rem;
+    margin-bottom: 1rem;
+}
+.textarea-iframe{
+    margin-left:9rem;
+}
+.label-input, .placeholder-input{
+    margin-left: 16rem;
+}
+.input-box{
+    margin-bottom:2rem;
+    display:flex;
+    flex-direction: column;
+}
+.input{
+    border-radius: 1rem;
+    height:3.5rem;
+    width:30rem;
+}
+.wrong-password{
+    border:2px solid var(--password-wrong-color);
+}
+.weak-password{
+    border: 2px solid var(--btn-warning-bg-color);
+}
+.right-password{
+    border:2px solid var(--password-right-color);
+}
+.label{
+    font-size: 2rem;  
+}
+.msg-weak{
+    color:var(--btn-warning-bg-color);
+}
+.msg-error{
+    color:var(--password-wrong-color);
+    text-align: left;
+}
+.msg-success{
+    color:var(--password-right-color); 
+    text-align: left;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+.placeholder-input{
+    margin-bottom: 2rem;
+}
+ 

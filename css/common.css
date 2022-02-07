@@ -26,6 +26,8 @@
     --btn-warning-bg-color:#ffba08;
     --btn-success-bg-color:#80b918;
     --btn-danger-bg-color:#d00000;
+    --password-wrong-color:#ff0000;
+    --password-right-color:#008000;
     font-size: 62.5%;
 }
 
