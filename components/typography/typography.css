@@ -1,6 +1,5 @@
 .typography-headings{
     text-align: left;
-    margin-left: 0;
     margin: 0;
 }
 .typography-h1{
@@ -40,7 +39,6 @@
     font-size: 2.3rem;
     margin: 0;
 }
-
 .para-center{
     text-align: center;
 }
