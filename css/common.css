@@ -128,14 +128,13 @@ h1{
     font-size:4.5rem;
     margin-left:0;
 }
-h2{
+.nav-sub-header{
     font-size: 1.8rem;
-    color: #6c757d;
+    color: var(--btn-secondary-color);
     font-weight:600;
     margin-left: 3rem;
     padding: 0;
 }
-
 /* navigation */
 .link{
     padding: 5px 10px;
