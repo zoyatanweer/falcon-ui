@@ -1,0 +1,41 @@
+.modal{
+    background-color: #f8edeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 60rem;
+    margin-bottom: 2rem;
+}
+.modal-heading{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.modal-dismiss-btn{
+    font-size: 2rem;
+    position: absolute;
+    left: 87rem;
+    top: 43rem;
+}
+.modal-about{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.modal-btn-primary,.modal-btn-secondary{
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.modal-btn-secondary{
+    background-color: #f8edeb;
+    border: 2px solid var(--btn-secondary-hover-color);    
+}
+.modal-btn-primary{
+    background-color: #ff006e;
+    border: 2px solid #ff006e;
+    color: white;
+}
