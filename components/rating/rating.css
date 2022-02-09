@@ -1,0 +1,16 @@
+.rated, .half-rated,.unrated{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+.rating-para{
+    font-size: 2rem;
+    margin: 1rem 0 0 1rem;
+}
+.rated-star, .unrated-star{
+    color: var(--rating-star-color);
+}
+.iframe-rating{
+    margin-bottom: 4rem;
+}
