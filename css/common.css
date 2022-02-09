@@ -31,6 +31,8 @@
     --password-wrong-color:#ff0000;
     --password-right-color:#008000;
     --rating-star-color:#ffd700;
+    --modal-bg-color:#f8edeb;
+    --modal-btn-primary:#ff006e;
     font-size: 62.5%;
 }
 
