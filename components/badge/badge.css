@@ -1,58 +1,61 @@
 .badge-container, .badge-icon{
     margin:2rem auto 2rem 0;
 }
+.badge-icon{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
 .badge, .btn-icon{
     border-radius: 50%;
     position:absolute;
 }
 .badge-xlg-right{
-    background-color: red;
+    background-color: var(--password-wrong-color);
     height:3.5rem;
     width:3.5rem;
-    top:65rem;
+    top:63rem;
     left:42rem;
-    border: 1px solid red;
+    border: 1px solid var(--password-wrong-color);
 }
 .badge-lg-left{
-    background-color: yellowgreen;
+    background-color: var(--btn-success-bg-color);
     height:2.5rem;
     width:2.5rem;
-    top:65.5rem;
+    top:64.5rem;
     left: 47.5rem;
-    border:1px solid yellowgreen;
+    border:1px solid var(--btn-success-bg-color);
 }
 .badge-md-right{
-    background-color:#adb5bd;
+    background-color: var(--btn-secondary-hover-color);
     height:2.2rem;
     width:2.2rem;
-    top:67rem;
+    top:64rem;
     left: 68.5rem;
-    border: 1px solid #adb5bd; 
+    border: 1px solid var(--btn-secondary-hover-color); 
 }
 .badge-sm-left{
-    background-color:#ffba08;
+    background-color:var(--btn-warning-bg-color);
     height:2rem;
     width:2rem;
-    top:67rem;
+    top:65.5rem;
     left: 72.5rem;
-    border: 1px solid #ffba08;
+    border: 1px solid var(--btn-warning-bg-color);
+}
+.div-badge{
+    position: relative;
+    margin:1.5rem;
 }
 .badge-img{
     height: 5rem;
     width:5rem;
 }
 .btn-icon{
-    background-color: red;
+    background-color: var(--password-wrong-color);
+    color: var(--btn-color);
     height: 3rem;
     width: 3rem;
-    color: white;
-}
-.btn-icon-home{
-    left:345px;
-}
-.btn-icon-email{
-    left:400px;
-}
-.btn-icon-notif{
-    left:450px;
+    position: absolute;
+    top: -5px;
+    left: 25px;
 }
