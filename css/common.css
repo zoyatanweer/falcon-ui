@@ -21,10 +21,10 @@
     --btn-primary-bg-color:#4361ee;
     --btn-color:#ffffff;
     --btn-primary-hover-color:#3f37c9;
-    --btn-secondary-bg-color:#e5e5e5;
-    --btn-secondary-color:#6c757d;
-    --btn-secondary-hover-color:#adb5bd;
-    --btn-disabled-bg-color:#4895ef;
+    --btn-secondary-bg-color:#3073c5;
+    --btn-disabled-color:#6c757d; 
+    --btn-disabled-bg-color:#caf0f8;
+    --btn-secondary-bg-color:#4895ef;
     --btn-warning-bg-color:#ffba08;
     --btn-success-bg-color:#80b918;
     --btn-danger-bg-color:#d00000;
@@ -33,6 +33,7 @@
     --rating-star-color:#ffd700;
     --modal-bg-color:#f8edeb;
     --modal-btn-primary:#ff006e;
+    --footer-bg-color: #023047;
     font-size: 62.5%;
 }
 
@@ -71,6 +72,11 @@
 }
 .landing-page-main{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
 }
 .landing-page{
     font-size: 4.5rem;
@@ -82,7 +88,7 @@
     font-size: 2.5rem;
     font-weight: 500;
     width:50rem;
-    margin:2rem 40rem;
+    margin:2rem auto 5rem ;
 }
 .landing-btn-install, .landing-btn-docs{
     border-radius: 10px;
@@ -114,6 +120,29 @@
     color:var(--primary-color);
     font-weight: 600;
 }
+
+/* installation */
+.section-installation{
+    margin: 2rem 5rem;  
+}
+#title-installation{
+    margin-left: 4rem;
+}
+.desc-installation{
+    font-weight: 400;
+    text-align: left;
+    max-width: 40%;
+    padding-right:2rem ;
+    
+}
+.installation-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 a{
     text-decoration: none;
     color: var(--alert-secondary-color); 
@@ -140,6 +169,7 @@ h1{
     margin-left: 3rem;
     padding: 0;
 }
+
 /* navigation */
 .link{
     padding: 5px 10px;
@@ -204,7 +234,8 @@ ul{
     list-style:none;
     margin-bottom:0;
 }
-  /* The navigation menu links */
+
+/* The navigation menu links */
 .nav-content {
     color: var(--alert-secondary-color);
     display: block;
@@ -221,6 +252,7 @@ ul{
     font-weight:bold;
     color:var(--link-active-color);
 }
+
 /* components section */
 .section-about{
     color: var(--alert-secondary-color);
@@ -250,4 +282,38 @@ span{
 }
 iframe{
     margin-bottom: 2rem;
+}
+
+/* footer-section */
+.footer{
+    background-color: var(--footer-bg-color);
+    color: var(--background-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    margin:2rem 0 0;
+    padding: 5rem;
+    text-align: center;
+}
+.footer-title{
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.footer-contact{
+    font-weight: 400;
+}
+.footer-item:hover{
+    color: var(--primary-color);
+}
+.footer-svg{
+    fill: var(--background-color);
+    color: var(--background-color);
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
