@@ -32,10 +32,18 @@
 }
 .modal-btn-secondary{
     background-color: var(--modal-bg-color);
-    border: 2px solid var(--btn-secondary-hover-color);    
+    border: 2px solid var(--btn-disabled-color);    
+}
+.modal-btn-secondary:hover{
+    background-color: var(--btn-disabled-color);
+    color: var(--modal-bg-color);
 }
 .modal-btn-primary{
     background-color: var(--modal-btn-primary);
     border: 2px solid var(--modal-btn-primary);
     color: var(--background-color);
+}
+.modal-btn-primary:hover{
+    background-color: var(--modal-btn-primary-hover);
+    border: 2px solid var(--modal-btn-primary-hover);
 }
