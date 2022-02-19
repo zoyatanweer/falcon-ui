@@ -5,6 +5,7 @@
 /* avatar */
 .avatar-round{
   border-radius: 50%;
+  position: relative;
 }
 .avatar-xlg{
   height:15rem;
