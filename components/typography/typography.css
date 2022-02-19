@@ -43,5 +43,5 @@
     text-align: center;
 }
 .typography-gray{
-    color: var(--btn-secondary-color);
+    color: var(--btn-disabled-color);
 }

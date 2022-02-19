@@ -27,12 +27,12 @@
     border:1px solid var(--btn-success-bg-color);
 }
 .badge-md-right{
-    background-color: var(--btn-secondary-hover-color);
+    background-color: var(--btn-disabled-color);
     height:2.2rem;
     width:2.2rem;
     top:64rem;
     left: 68.5rem;
-    border: 1px solid var(--btn-secondary-hover-color); 
+    border: 1px solid var(--btn-disabled-color); 
 }
 .badge-sm-left{
     background-color:var(--btn-warning-bg-color);

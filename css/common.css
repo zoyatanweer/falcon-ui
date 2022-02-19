@@ -33,6 +33,7 @@
     --rating-star-color:#ffd700;
     --modal-bg-color:#f8edeb;
     --modal-btn-primary:#ff006e;
+    --modal-btn-primary-hover: #f72585;
     --footer-bg-color: #023047;
     font-size: 62.5%;
 }
@@ -164,7 +165,7 @@ h1{
 }
 .nav-sub-header{
     font-size: 1.8rem;
-    color: var(--btn-secondary-color);
+    color: var(--btn-disabled-color);
     font-weight:600;
     margin-left: 3rem;
     padding: 0;
