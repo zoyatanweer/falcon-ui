@@ -30,10 +30,10 @@ For using the components in your projects, copy and paste the stylesheet `<link>
 An alert is used to tell the user any important message. It is short and is used to draw user's attention.
 It has 5 types: primary, secondary, success, danger, warning.
 
-Primary Alert
+1. Alert
 <img src="./assets/images/readme-img/alert1.png">
 
-Outlined Alert
+2. Outlined Alert
 <img src="./assets/images/readme-img/alert2.png">
 
 ### [Checkout code for Alert](https://falcon-ui-zoya.netlify.app/components/alert/alert.html)
@@ -45,10 +45,10 @@ Outlined Alert
 Avatar can be used to show the user's identity on screen.
 It has 2 types: round avatar and square avatar.
 
-Round Avatar
+1. Round Avatar
 <img src="./assets/images/readme-img/round-avatar.png">
 
-Square Avatar
+2. Square Avatar
 <img src="./assets/images/readme-img/square-avatar.png">
 
 ### [Checkout code for Avatar](https://falcon-ui-zoya.netlify.app/components/avatar/avatar.html)
@@ -59,10 +59,10 @@ Square Avatar
 Badge on avatar shows the current state of the user (online, offline or disabled) on any app . It has left and right positions.
 There are four sizes of badges: xlg, lg, md and sm.
 
-Badge on Avatar
+1. Badge on Avatar
 <img src="./assets/images/readme-img/badge-on-avatar.png">
 
-Badge on Icons
+2. Badge on Icons
 <img src="./assets/images/readme-img/badge-on-icon.png">
 
 
@@ -95,15 +95,20 @@ Listed below are certain types of buttons:
 ## Card
 Cards are used to display short and crisp information to the user.
 
-Vertical Card
+1. Vertical Card
+
 <img src="./assets/images/readme-img/card-vertical.png">
 <img src="./assets/images/readme-img/card-vertical-dismiss.png">
 <img src="./assets/images/readme-img/card-vertical-badge.png">
 
-Horizontal Card
+2. Horizontal Card
+
 <img src="./assets/images/readme-img/card-horizontal.png">
 <img src="./assets/images/readme-img/card-horizontal-dismiss.png">
 <img src="./assets/images/readme-img/card-horizontal-badge.png">
+
+<img src="./assets/images/readme-img/overlay.png">
+<img src="./assets/images/readme-img/textonly.png">
 
 
 ### [Checkout code for Card](https://falcon-ui-zoya.netlify.app/components/card/card.html)
@@ -112,13 +117,16 @@ Horizontal Card
 ## Image
 Image can be used to display pictures on the website.
 
-Rounded Image
+1. Rounded Image
+
 <img src="./assets/images/readme-img/image-round.png">
 
-Square Image
+2. Square Image
+
 <img src="./assets/images/readme-img/image-square.png">
 
-Responsive Image
+3. Responsive Image
+
 <img src="./assets/images/readme-img/image-resp.png">
 
 
@@ -128,13 +136,16 @@ Responsive Image
 ## Input
 Inputs are used to take the information typed by the user.
 
-Textarea
+1. Textarea
+
 <img src="./assets/images/readme-img/textarea.png">
 
-Label Input
+2. Label Input
+
 <img src="./assets/images/readme-img/label.png">
 
-Placeholder Input
+3. Placeholder Input
+
 <img src="./assets/images/readme-img/placeholder.png">
 
 
@@ -159,13 +170,14 @@ Ratings are represented in icons and the users use these to give rating to the s
 
 ---
 ## Text Utilities
-Headings
+
+1. Headings
 <img src="./assets/images/readme-img/heading.png">
 
-Paragraphs
+2. Paragraphs
 <img src="./assets/images/readme-img/smalltext.png">
 
-Other styles
+3. Other styles
 <img src="./assets/images/readme-img/otherstyle.png">
 
 
