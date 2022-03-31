@@ -7,7 +7,7 @@ Falcon UI is a Component Library that helps you build faster and better projects
 For using the components in your projects, copy and paste the stylesheet `<link>` in your `<head>` in your `html` file. Make sure to copy-paste this stylesheet before all the other styles.
 
 ```html
-<link rel="stylesheet" href="https:/falcon-ui-zoya.netlify.app/styles.css" />
+<link rel="stylesheet" href="https://falcon-ui-zoya.netlify.app/styles.css" />
 ```
 ---
 
