@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- css file -->
+    <link href="/styles.css" rel="stylesheet">
+    <title>Falcon UI | Toast</title>
+</head>
+<body>
+  <nav class="navigation-container">
+    <div class="nav-brand">FALCON UI</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item">
+            <a class="link" href="/index.html">HOME</a>
+        </li>
+        <li class="list-item">
+            <a class="link link-active" href="../alert/alert.html">DOCUMENTATION</a>
+        </li>
+        <li class="list-item">
+            <a class="link" href="https://github.com/zoyatanweer/falcon-ui">GITHUB</a>
+        </li>
+      </ul>
+  </nav>
+  <nav class="side-navigation-container">
+
+    <div class="nav header">
+        <h2 class="nav-sub-header">Components</h2>
+        <ul>
+            <li class="nav-content">
+                <a class="side-nav" href="../alert/alert.html">Alerts</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../button/button.html">Button</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../card/card.html">Card</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../grid/grid.html">Grid</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../image/image.html">Image</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../input/input.html">Input</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../typography/typography.html">Text Utilities</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav link-active" href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- toast -->
+  <main class="page-content">
+    <section class="section-toast">
+      <h1 class="head-topic">Toast</h1>
+      <p class="section-about">Toasts are popups to show a message at the bottom of the screen. Listed below are four types of toasts: primary, warning, danger and success</p>
+      <h2 class="sub-header">Example of toasts</h2>
+      <p class="section-about">Use the class <span>toast</span> and then add <span>toast-primary / warning / danger / success</span> to use it.</p> 
+      
+      <div class="toast-group">
+        <!-- primary -->
+        <div class="toast toast-primary">
+            <img class="toast-svg toast-icon" src="/assets/svg/IcTwotoneInfo.svg">
+            <p class="toast-para">Primary toast with close button
+                <buton class="toast-btn">
+                    <svg class="toast-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#072ac8" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"></path></svg>
+                </buton>
+            </p>
+        </div>
+
+        <!-- warning -->
+        <div class="toast toast-warning">
+            <img class="toast-svg toast-icon" src="/assets/svg/IcTwotoneWarning.svg">
+            <p class="toast-para">Warning toast with close button
+                <buton class="toast-btn">
+                   <svg class="toast-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#ffaa00" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"></path></svg>
+                </buton>
+            </p>
+        </div>
+
+        <!-- danger -->
+        <div class="toast toast-danger">
+            <img class="toast-svg toast-icon" src="/assets/svg/IcTwotoneDangerous.svg">
+            <p class="toast-para">Danger toast with close button
+                <buton class="toast-btn">
+                    <svg class="toast-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#85182a" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"></path></svg>
+                </buton>
+            </p>
+        </div>
+
+        <!-- success -->
+        <div class="toast toast-success">
+            <img class="toast-svg toast-icon" src="/assets/svg/IcTwotoneCheckCircle.svg">
+            <p class="toast-para">Success toast with close button
+                <buton class="toast-btn">
+                    <svg class="toast-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#40916c" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"></path></svg>
+                </buton>
+            </p>    
+        </div>
+      </div>
+
+      <!-- iframe -->
+      <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21--%2520primary%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522toast-svg%2520toast-icon%2522%2520src%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-para%2522%253EPrimary%2520toast%2520with%2520close%2520button%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbuton%2520class%253D%2522toast-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520close%2520icon--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbuton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520warning%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522toast-svg%2520toast-icon%2522%2520src%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-para%2522%253EWarning%2520toast%2520with%2520close%2520button%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbuton%2520class%253D%2522toast-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520close%2520icon--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbuton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520danger%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522toast-svg%2520toast-icon%2522%2520src%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-para%2522%253EDanger%2520toast%2520with%2520close%2520button%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbuton%2520class%253D%2522toast-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520close%2520icon--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbuton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520success%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522toast-svg%2520toast-icon%2522%2520src%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-para%2522%253ESuccess%2520toast%2520with%2520close%2520button%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbuton%2520class%253D%2522toast-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520close%2520icon--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbuton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"style="width: 681px; height: 250px; border:0; transform: scale(1); overflow:hidden;"sandbox="allow-scripts allow-same-origin">
+      </iframe>
+
+</section>
+</main>
+</body>
+</html>

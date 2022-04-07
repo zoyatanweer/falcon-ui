@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- css file -->
+    <link href="/styles.css" rel="stylesheet">
+    <title>Falcon UI | Navigation</title>
+</head>
+<body>
+  <nav class="navigation-container">
+    <div class="nav-brand">FALCON UI</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item">
+            <a class="link" href="/index.html">HOME</a>
+        </li>
+        <li class="list-item">
+            <a class="link link-active" href="../alert/alert.html">DOCUMENTATION</a>
+        </li>
+        <li class="list-item">
+            <a class="link" href="https://github.com/zoyatanweer/falcon-ui">GITHUB</a>
+        </li>
+      </ul>
+  </nav>
+  <nav class="side-navigation-container">
+
+    <div class="nav header">
+        <h2 class="nav-sub-header">Components</h2>
+        <ul>
+            <li class="nav-content">
+                <a class="side-nav" href="../alert/alert.html">Alerts</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../button/button.html">Button</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../card/card.html">Card</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../grid/grid.html">Grid</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../image/image.html">Image</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../input/input.html">Input</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../lists/lists.html">Lists</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav link-active" href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../typography/typography.html">Text Utilities</a>
+            </li>
+            <li class="nav-content">
+                <a class="side-nav" href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+   <!-- lists -->
+   <main class="page-content">
+    <section class="section-lists">
+      <h1 class="head-topic">Navigation</h1>
+      <p class="section-about">
+        The Navigation component helps the user to directly go from one page to another by just clicking a link or a button.
+      </p>  
+      <nav class="navigation-container-component">
+        <div class="nav-brand">Falcon Store</div>
+            <li class="list-item list-non-bullet">
+                <a class="link" href="">HOME</a>
+            </li>
+            <li class="list-item list-non-bullet">
+                <a class="link" href="">PRODUCTS</a>
+            </li>
+          <div class="right-nav">
+            <div class="desktop-query">
+                <img class="right-nav-img img-search" src="/assets/svg/search_black_24dp.svg">
+                <input class="desktop-searchbar" type="text" placeholder="Search for products">
+            </div>
+            <div class="desktop-action-btn">
+              <div class="single-action-btn profile">
+                <svg class="right-nav-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+              </div>
+            </div>
+              <div class="single-action-btn">
+                <a href="">
+                  <svg class="right-nav-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                  <button class="btn-icon btn-icon-wishlist">4</button>
+                </a>
+              </div>
+              <div class="single-action-btn">
+                <a href="">
+                  <svg class="right-nav-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                  <button class="btn-icon btn-icon-cart">3</button>
+                </a>
+              </div>
+            </div>
+          </div>
+    </nav>
+
+    <!-- iframe -->
+    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%253Cnav%2520class%253D%2522navigation-container-component%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-brand%2522%253EFalcon%2520Store%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-non-bullet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%2522%253EHOME%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520list-non-bullet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522link%2522%2520href%253D%2522%2522%253EPRODUCTS%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522desktop-query%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522right-nav-img%2520img-search%2522%2520src%253D%2522...%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522desktop-searchbar%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2520for%2520products%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522desktop-action-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522single-action-btn%2520profile%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F%253Csvg%2520class%253D%2522right-nav-img%2522%253Euser%2520icon%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522single-action-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F%253Csvg%2520class%253D%2522right-nav-img%2522%2520%253E%2520wishlist%2520icon%253C%252Fsvg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F%253Cbutton%2520class%253D%2522btn-icon%2520btn-icon-wishlist%2522%253Eyour%2520badge%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522single-action-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F%253Csvg%2520class%253D%2522right-nav-img%2522%2520%253E%2520cart%2520icon%253C%252Fsvg%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%252F%253Cbutton%2520class%253D%2522btn-icon%2520btn-icon-cart%2522%253Eyour%2520badge%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E"
+  style="width: 734px; height: 402px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+ 
+
+  
+
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+.grid-container-horizontal {
+  margin: 2rem;
+}
+.grid-div {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  display: grid;
+  text-align: center;
+}
+.grid-div div {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  border: 5px solid var(--primary-color);
+  font-weight: 500;
+  padding: 2rem;
+}
+
+.grid-div-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.grid-div-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-div-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-div-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-div-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-div-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-div-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+.grid-div-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid-div-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+.grid-div-10 {
+  grid-template-columns: repeat(10, 1fr);
+}
+.grid-div-11 {
+  grid-template-columns: repeat(11, 1fr);
+}
+.grid-div-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
