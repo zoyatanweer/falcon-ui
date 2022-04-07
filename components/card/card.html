@@ -1,347 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
     <!-- css file -->
-    <link href="/styles.css" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet" />
     <title>Falcon UI | Card</title>
-</head>
-<body>
-  <nav class="navigation-container">
-    <div class="nav-brand">FALCON UI</div>
+  </head>
+  <body>
+    <nav class="navigation-container">
+      <div class="nav-brand">FALCON UI</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item">
-            <a class="link" href="/index.html">HOME</a>
+          <a class="link" href="/index.html">HOME</a>
         </li>
         <li class="list-item">
-            <a class="link link-active" href="../alert/alert.html">DOCUMENTATION</a>
+          <a class="link link-active" href="../alert/alert.html"
+            >DOCUMENTATION</a
+          >
         </li>
         <li class="list-item">
-            <a class="link" href="https://github.com/zoyatanweer/falcon-ui">GITHUB</a>
+          <a class="link" href="https://github.com/zoyatanweer/falcon-ui"
+            >GITHUB</a
+          >
         </li>
       </ul>
-  </nav>
-  <nav class="side-navigation-container">
-
-    <div class="nav header">
+    </nav>
+    <nav class="side-navigation-container">
+      <div class="nav header">
         <h2 class="nav-sub-header">Components</h2>
         <ul>
-            <li class="nav-content">
-                <a class="side-nav" href="../alert/alert.html">Alerts</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav" href="../badge/badge.html">Badge</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav" href="../button/button.html">Button</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav link-active" href="../card/card.html">Card</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav" href="../image/image.html">Image</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav" href="../input/input.html">Input</a>
-            </li>
-            <li class="nav-content">
-              <a class="side-nav" href="../modal/modal.html">Modal</a>
-            </li>
-            <li class="nav-content">
-                <a class="side-nav" href="../rating/rating.html">Rating</a>
-            </li>
-            <li class="nav-content">
-              <a class="side-nav" href="../typography/typography.html">Text Utilities</a>
+          <li class="nav-content">
+            <a class="side-nav" href="../alert/alert.html">Alerts</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../badge/badge.html">Badge</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../button/button.html">Button</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav link-active" href="../card/card.html">Card</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../grid/grid.html">Grid</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../image/image.html">Image</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../input/input.html">Input</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../lists/lists.html">Lists</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../modal/modal.html">Modal</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../rating/rating.html">Rating</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../typography/typography.html"
+              >Text Utilities</a
+            >
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../toast/toast.html">Toast</a>
           </li>
         </ul>
-    </div>
-  </nav>
-  <!-- card -->
-  <main class="page-content">
-    <section class="section-card">
-      <h1 class="head-topic">Card</h1>
-      <p class="section-about">
-        Cards are used to display short and crisp information to the user. 
-    </p>     
-     <!-- vertical card -->
-    <h2 class="sub-header">Vertical card</h2>
-    <p class="section-about">Vertical card can be created by using the class <span>card-vertical</span>.</p>
-    <div class="card-container-vertical">
-        <div class="card-vertical">
+      </div>
+    </nav>
+    <!-- card -->
+    <main class="page-content">
+      <section class="section-card">
+        <h1 class="head-topic">Card</h1>
+        <p class="section-about">
+          Cards are used to display short and crisp information to the user.
+        </p>
+        <!-- vertical card -->
+        <h2 class="sub-header">Vertical card</h2>
+        <p class="section-about">
+          Vertical card can be created by using the class
+          <span>card-vertical</span>.
+        </p>
+        <div class="card-container-vertical">
+          <div class="card-vertical">
             <div class="card-picture">
-                <img class="card-img" src="/assets/images/card-img.jpg" alt="vertical card image"/>
-                <span class="hide card-badge">New Arrival</span>
-                <span class="hide dismiss-btn">X</span>
+              <img
+                class="card-img"
+                src="/assets/images/card-img.jpg"
+                alt="vertical card image"
+              />
+              <span class="hide card-badge">New Arrival</span>
+              <span class="hide dismiss-btn">X</span>
+              <div class="hide overlay">Out of stock</div>
+            </div>
+
+            <div class="card-about">
+              <h1 class="title">Grey suit</h1>
+              <h2 class="sub-title">Women formal grey fitted jacket.</h2>
+              <p class="card-para">
+                ₹1500
+                <span class="striken-text">₹2500</span>
+              </p>
+              <div class="card-container-action">
+                <button class="btn-cart">
+                  <i class="fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <button class="heart-btn"><i class="far fa-heart"></i></button>
+                <button class="share-btn">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="iframe-card"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 500px;
+              height: 350px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <!-- 500 370 -->
+        </div>
+
+        <!-- card with dismiss btn -->
+        <h3 class="sub-type">Vertical Card with dismiss button</h3>
+        <p class="section-about">
+          Vertical card with dismiss button can be created by using the class
+          <span>dismiss-btn</span>.
+        </p>
+        <div class="card-container-vertical">
+          <div class="card-vertical">
+            <div class="card-picture">
+              <img
+                class="card-img"
+                src="/assets/images/card-img.jpg"
+                alt="vertical card image"
+              />
+              <span class="hide card-badge">New Arrival</span>
+              <span class="dismiss-btn">X</span>
+              <div class="hide overlay">Out of stock</div>
+            </div>
+            <div class="card-about">
+              <h1 class="title">Grey suit</h1>
+              <h2 class="sub-title">Women formal grey fitted jacket.</h2>
+              <p class="card-para">
+                ₹1500
+                <span class="striken-text">₹2500</span>
+              </p>
+              <div class="card-container-action">
+                <button class="btn-cart">
+                  <i class="fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <button class="heart-btn"><i class="far fa-heart"></i></button>
+                <button class="share-btn">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="iframe-card"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 500px;
+              height: 350px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- badge -->
+        <h3 class="sub-type">Vertical Card with badge</h3>
+        <p class="section-about">
+          Vertical card with badge can be created by using the class
+          <span>card-badge</span>.
+        </p>
+        <div class="card-container-vertical">
+          <div class="card-vertical">
+            <div class="card-picture">
+              <img
+                class="card-img"
+                src="/assets/images/card-img.jpg"
+                alt="vertical card image"
+              />
+              <span class="card-badge">New Arrival</span>
+              <span class="dismiss-btn">X</span>
+              <div class="hide overlay">Out of stock</div>
+            </div>
+            <div class="card-about">
+              <h1 class="title">Grey suit</h1>
+              <h2 class="sub-title">Women formal grey fitted jacket.</h2>
+              <p class="card-para">
+                ₹1500
+                <span class="striken-text">₹2500</span>
+              </p>
+              <div class="card-container-action">
+                <button class="btn-cart">
+                  <i class="fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <button class="heart-btn"><i class="far fa-heart"></i></button>
+                <button class="share-btn">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <iframe
+            class="iframe-card"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 500px;
+              height: 350px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <!-- horizontal card -->
+        <h2 class="sub-header">Horizontal card</h2>
+        <p class="section-about">
+          Horizontal card can be created by using the class
+          <span>card-horizontal</span>.
+        </p>
+
+        <div class="card-horizontal">
+          <div class="card-picture">
+            <img
+              class="card-img img-horizontal"
+              src="/assets/images/card-img.jpg"
+              alt="horizontal card image"
+            />
+            <span class="hide card-badge">New Arrival</span>
+            <span class="hide dismiss-btn">X</span>
             <div class="hide overlay">Out of stock</div>
+          </div>
+          <div class="card-about horizontal-about">
+            <h1 class="title">Grey suit</h1>
+            <h2 class="sub-title">
+              Women formal grey fitted jacket. Full sleeves, cotton material,
+              machine wash.
+            </h2>
+            <p class="card-para">
+              ₹1500
+              <span class="striken-text">₹2500</span>
+            </p>
+            <div class="card-container-action">
+              <button class="btn-cart">
+                <i class="fas fa-shopping-cart"></i>Add to cart
+              </button>
+              <button class="heart-btn"><i class="far fa-heart"></i></button>
+              <button class="share-btn">
+                <i class="fas fa-share-alt"></i>
+              </button>
             </div>
-
-            <div class="card-about">
-                <h1 class="title">Grey suit</h1>
-                <h2 class="sub-title">Women formal grey fitted jacket.</h2>
-                <p class="card-para">₹1500
-                    <span class="striken-text">₹2500</span>
-                </p>
-                <div class="card-container-action">
-                    <button class="btn-cart">
-                        <i class="fas fa-shopping-cart"></i>Add to cart
-                    </button>
-                    <button class="heart-btn"><i class="far fa-heart"></i></button>
-                    <button class="share-btn">
-                        <i class="fas fa-share-alt"></i>
-                    </button>
-                </div>
-            </div>
+          </div>
         </div>
-        <iframe class="iframe-card"
-        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-        style="width: 500px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
-        sandbox="allow-scripts allow-same-origin">
-      </iframe>
-        <!-- 500 370 -->
-    </div>
-
-<!-- card with dismiss btn -->
-    <h3 class="sub-type">Vertical Card with dismiss button</h3>
-    <p class="section-about">Vertical card with dismiss button can be created by using the class <span>dismiss-btn</span>.</p>
-    <div class="card-container-vertical">
-        <div class="card-vertical">
-            <div class="card-picture">
-                <img class="card-img" src="/assets/images/card-img.jpg" alt="vertical card image"/>
-                    <span class="hide card-badge">New Arrival</span>
-                    <span class="dismiss-btn">X</span>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-horizontal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520dismiss-btn%2520horizontal-dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520horizontal-about%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+          style="
+            width: 700px;
+            height: 230px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <!-- with dismiss btn -->
+        <h3 class="sub-type">Horizontal Card with dismiss button</h3>
+        <p class="section-about">
+          Horizontal card with dismiss button can be created by using the class
+          <span>dismiss-btn</span>.
+        </p>
+        <div class="card-horizontal">
+          <div class="card-picture">
+            <img
+              class="card-img img-horizontal"
+              src="/assets/images/card-img.jpg"
+              alt="horizontal card image"
+            />
+            <span class="hide card-badge">New Arrival</span>
+            <span class="dismiss-btn horizontal-dismiss">X</span>
             <div class="hide overlay">Out of stock</div>
+          </div>
+          <div class="card-about horizontal-about">
+            <h1 class="title">Grey suit</h1>
+            <h2 class="sub-title">
+              Women formal grey fitted jacket. Full sleeves, cotton material,
+              machine wash.
+            </h2>
+            <p class="card-para">
+              ₹1500
+              <span class="striken-text">₹2500</span>
+            </p>
+            <div class="card-container-action">
+              <button class="btn-cart">
+                <i class="fas fa-shopping-cart"></i>Add to cart
+              </button>
+              <button class="heart-btn"><i class="far fa-heart"></i></button>
+              <button class="share-btn">
+                <i class="fas fa-share-alt"></i>
+              </button>
             </div>
-            <div class="card-about">
-                <h1 class="title">Grey suit</h1>
-                <h2 class="sub-title">Women formal grey fitted jacket.</h2>
-                <p class="card-para">₹1500
-                    <span class="striken-text">₹2500</span>
-                </p>
-                <div class="card-container-action">
-                    <button class="btn-cart">
-                        <i class="fas fa-shopping-cart"></i>Add to cart
-                    </button>
-                    <button class="heart-btn"><i class="far fa-heart"></i></button>
-                    <button class="share-btn">
-                        <i class="fas fa-share-alt"></i>
-                    </button>
-                </div>  
-            </div>
+          </div>
         </div>
-        <iframe class="iframe-card"
-        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-        style="width: 500px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
-        sandbox="allow-scripts allow-same-origin">
-      </iframe>
-    </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-horizontal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2520horizontal-dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520horizontal-about%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+          style="
+            width: 700px;
+            height: 230px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
 
-<!-- badge -->
-    <h3 class="sub-type">Vertical Card with badge</h3>
-    <p class="section-about">Vertical card with badge can be created by using the class <span>card-badge</span>.</p>
-    <div class="card-container-vertical">
-        <div class="card-vertical">
+        <!-- badge -->
+        <h3 class="sub-type">Horizontal Card with badge</h3>
+        <p class="section-about">
+          Horizontal card with badge can be created by using the class
+          <span>card-badge</span>.
+        </p>
+        <div class="card-horizontal">
+          <div class="card-picture">
+            <img
+              class="card-img img-horizontal"
+              src="/assets/images/card-img.jpg"
+              alt="horizontal card image"
+            />
+            <span class="card-badge">New Arrival</span>
+            <span class="dismiss-btn horizontal-dismiss">X</span>
+            <div class="hide overlay">Out of stock</div>
+          </div>
+          <div class="card-about horizontal-about">
+            <h1 class="title">Grey suit</h1>
+            <h2 class="sub-title">
+              Women formal grey fitted jacket. Full sleeves, cotton material,
+              machine wash.
+            </h2>
+            <p class="card-para">
+              ₹1500
+              <span class="striken-text">₹2500</span>
+            </p>
+            <div class="card-container-action">
+              <button class="btn-cart">
+                <i class="fas fa-shopping-cart"></i>Add to cart
+              </button>
+              <button class="heart-btn"><i class="far fa-heart"></i></button>
+              <button class="share-btn">
+                <i class="fas fa-share-alt"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-horizontal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2520horizontal-dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520horizontal-about%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+          style="
+            width: 700px;
+            height: 230px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <!-- text-only -->
+        <h3 class="sub-type">Horizontal Card with text only</h3>
+        <p class="section-about">
+          Horizontal card with text only can be created by using the class
+          <span>card-horizontal text-only</span>
+        </p>
+        <div class="card-horizontal text-only">
+          <span class="hide card-badge">New Arrival</span>
+          <span class="dismiss-btn">X</span>
+          <div class="hide overlay">Out of stock</div>
+          <div class="card-about text-only">
+            <h1 class="title">Grey suit</h1>
+            <h2 class="sub-title">
+              Women formal grey fitted jacket. Full sleeves, cotton material,
+              machine wash.
+            </h2>
+            <p class="card-para">
+              ₹1500
+              <span class="striken-text">₹2500</span>
+            </p>
+            <div class="card-container-action">
+              <button class="btn-cart">
+                <i class="fas fa-shopping-cart"></i>Add to cart
+              </button>
+              <button class="heart-btn"><i class="far fa-heart"></i></button>
+              <button class="share-btn">
+                <i class="fas fa-share-alt"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A"
+          style="
+            width: 700px;
+            height: 230px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+
+        <!-- text-overlay -->
+        <h2 class="sub-header">Vertical card with text overlay</h2>
+        <p class="section-about">
+          Text overlay can be created by using the class <span>overlay</span>.
+        </p>
+        <div class="card-container-vertical">
+          <div class="card-vertical">
             <div class="card-picture">
-                <img class="card-img" src="/assets/images/card-img.jpg" alt="vertical card image"/>
-                    <span class="card-badge">New Arrival</span>
-                    <span class="dismiss-btn">X</span>
-                <div class="hide overlay">Out of stock</div>
+              <img
+                class="card-img"
+                src="/assets/images/card-img.jpg"
+                alt="vertical card image"
+              />
+              <span class="hide card-badge">New Arrival</span>
+              <span class="hide dismiss-btn">X</span>
+              <div class="overlay">Out of stock</div>
             </div>
             <div class="card-about">
-                <h1 class="title">Grey suit</h1>
-                <h2 class="sub-title">Women formal grey fitted jacket.</h2>
-                <p class="card-para">₹1500
-                    <span class="striken-text">₹2500</span>
-                </p>
-                    <div class="card-container-action">
-                        <button class="btn-cart">
-                            <i class="fas fa-shopping-cart"></i>Add to cart
-                        </button>
-                        <button class="heart-btn"><i class="far fa-heart"></i></button>  
-                        <button class="share-btn">
-                            <i class="fas fa-share-alt"></i>
-                        </button>
-                    </div>
+              <h1 class="title">Grey suit</h1>
+              <h2 class="sub-title">Women formal grey fitted jacket.</h2>
+              <p class="card-para">
+                ₹1500
+                <span class="striken-text">₹2500</span>
+              </p>
+              <div class="card-container-action">
+                <button class="btn-cart">
+                  <i class="fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <button class="heart-btn"><i class="far fa-heart"></i></button>
+                <button class="share-btn">
+                  <i class="fas fa-share-alt"></i>
+                </button>
+              </div>
             </div>
+          </div>
+          <iframe
+            class="iframe-card"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522..%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            style="
+              width: 500px;
+              height: 350px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
         </div>
-        <iframe class="iframe-card"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 500px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</div>
-
-<!-- horizontal card -->
-<h2 class="sub-header">Horizontal card</h2>
-<p class="section-about">Horizontal card can be created by using the class <span>card-horizontal</span>.</p>
-
-<div class="card-horizontal">
-  <div class="card-picture">
-     <img class="card-img img-horizontal" src="/assets/images/card-img.jpg" alt="horizontal card image"/>
-     <span class="hide card-badge">New Arrival</span>
-     <span class="hide dismiss-btn">X</span>
-     <div class="hide overlay">Out of stock</div>
-   </div>
-   <div class="card-about horizontal-about">
-     <h1 class="title">Grey suit</h1>
-     <h2 class="sub-title">Women formal grey fitted jacket. Full sleeves, cotton material, machine wash.</h2>
-     <p class="card-para">₹1500
-     <span class="striken-text">₹2500</span>
-     </p>
-       <div class="card-container-action">
-         <button class="btn-cart">
-           <i class="fas fa-shopping-cart"></i>Add to cart
-         </button>
-         <button class="heart-btn"><i class="far fa-heart"></i></button>
-         <button class="share-btn">
-           <i class="fas fa-share-alt"></i>
-         </button>
-       </div>
-   </div>
-</div>
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-horizontal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520dismiss-btn%2520horizontal-dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520horizontal-about%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 700px; height: 230px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-<!-- with dismiss btn -->
-<h3 class="sub-type">Horizontal Card with dismiss button</h3>
-<p class="section-about">Horizontal card with dismiss button can be created by using the class <span>dismiss-btn</span>. </p>
-<div class="card-horizontal">
-  <div class="card-picture">
-     <img class="card-img img-horizontal" src="/assets/images/card-img.jpg" alt="horizontal card image"/>
-     <span class="hide card-badge">New Arrival</span>
-     <span class="dismiss-btn horizontal-dismiss">X</span>
-     <div class="hide overlay">Out of stock</div>
-   </div>
-   <div class="card-about horizontal-about">
-     <h1 class="title">Grey suit</h1>
-     <h2 class="sub-title">Women formal grey fitted jacket. Full sleeves, cotton material, machine wash.</h2>
-     <p class="card-para">₹1500
-     <span class="striken-text">₹2500</span>
-     </p>
-       <div class="card-container-action">
-         <button class="btn-cart">
-           <i class="fas fa-shopping-cart"></i>Add to cart
-         </button>
-         <button class="heart-btn"><i class="far fa-heart"></i></button>
-         <button class="share-btn">
-           <i class="fas fa-share-alt"></i>
-         </button>
-       </div>
-   </div>
-</div>
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-horizontal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2520horizontal-dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520horizontal-about%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 700px; height: 230px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-<!-- badge -->
-<h3 class="sub-type">Horizontal Card with badge</h3>
-<p class="section-about">Horizontal card with badge can be created by using the class <span>card-badge</span>.</p>
-<div class="card-horizontal">
-  <div class="card-picture">
-     <img class="card-img img-horizontal" src="/assets/images/card-img.jpg" alt="horizontal card image"/>
-     <span class="card-badge">New Arrival</span>
-     <span class="dismiss-btn horizontal-dismiss">X</span>
-     <div class="hide overlay">Out of stock</div>
-   </div>
-   <div class="card-about horizontal-about">
-     <h1 class="title">Grey suit</h1>
-     <h2 class="sub-title">Women formal grey fitted jacket. Full sleeves, cotton material, machine wash.</h2>
-     <p class="card-para">₹1500
-     <span class="striken-text">₹2500</span>
-     </p>
-       <div class="card-container-action">
-         <button class="btn-cart">
-           <i class="fas fa-shopping-cart"></i>Add to cart
-         </button>
-         <button class="heart-btn"><i class="far fa-heart"></i></button>
-         <button class="share-btn">
-           <i class="fas fa-share-alt"></i>
-         </button>
-       </div>
-   </div>
-</div>
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2520img-horizontal%2522%2520src%253D%2522...%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2520horizontal-dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520horizontal-about%2522%253E%250A%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 700px; height: 230px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-<!-- text-only -->
-<h3 class="sub-type">Horizontal Card with text only</h3>
-<p class="section-about">Horizontal card with text only can be created by using the class <span>card-horizontal text-only</span> </p>
- <div class="card-horizontal text-only">
-      <span class="hide card-badge">New Arrival</span>
-      <span class="dismiss-btn">X</span>
-      <div class="hide overlay">Out of stock</div>
-    <div class="card-about text-only">
-      <h1 class="title">Grey suit</h1>
-      <h2 class="sub-title">Women formal grey fitted jacket. Full sleeves, cotton material, machine wash.</h2>
-      <p class="card-para">₹1500
-      <span class="striken-text">₹2500</span>
-      </p>
-        <div class="card-container-action">
-          <button class="btn-cart">
-            <i class="fas fa-shopping-cart"></i>Add to cart
-          </button>
-          <button class="heart-btn"><i class="far fa-heart"></i></button>
-          <button class="share-btn">
-            <i class="fas fa-share-alt"></i>
-          </button>
-        </div>
-    </div>
-</div>
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-horizontal%2520text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hide%2520overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2520text-only%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%2520Full%2520sleeves%252C%2520cotton%2520material%252C%2520machine%2520wash.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A"
-  style="width: 700px; height: 230px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-<!-- text-overlay -->
-<h2 class="sub-header">Vertical card with text overlay</h2>
- <p class="section-about">Text overlay can be created by using the class <span>overlay</span>.</p>
- <div class="card-container-vertical">
- <div class="card-vertical">
-   <div class="card-picture">
-      <img class="card-img" src="/assets/images/card-img.jpg" alt="vertical card image"/>
-      <span class="hide card-badge">New Arrival</span>
-      <span class="hide dismiss-btn">X</span>
-      <div class="overlay">Out of stock</div>
-    </div>
-    <div class="card-about">
-      <h1 class="title">Grey suit</h1>
-      <h2 class="sub-title">Women formal grey fitted jacket.</h2>
-      <p class="card-para">₹1500
-      <span class="striken-text">₹2500</span>
-      </p>
-        <div class="card-container-action">
-          <button class="btn-cart">
-            <i class="fas fa-shopping-cart"></i>Add to cart
-          </button>
-          <button class="heart-btn"><i class="far fa-heart"></i></button>
-          <button class="share-btn">
-            <i class="fas fa-share-alt"></i>
-          </button>
-        </div>
-    </div>
-    </div>
-    <iframe class="iframe-card" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522..%2522%2520alt%253D%2522...%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520card-badge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hide%2520dismiss-btn%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-about%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522title%2522%253EGrey%2520suit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522sub-title%2522%253EWomen%2520formal%2520grey%2520fitted%2520jacket.%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-para%2522%253E%25E2%2582%25B91500%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522striken-text%2522%253E%25E2%2582%25B92500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522heart-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522share-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-  style="width: 500px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-    </iframe>
-</div>
-
-    
-</section>
-</main> 
-</body>
+      </section>
+    </main>
+  </body>
 </html>

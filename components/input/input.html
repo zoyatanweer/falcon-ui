@@ -1,138 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
     <!-- css file -->
-    <link href="../../styles.css" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet" />
     <title>Falcon UI | Input</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation-container">
-        <div class="nav-brand">FALCON UI</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item">
-                <a class="link" href="/index.html">HOME</a>
-            </li>
-            <li class="list-item">
-                <a class="link link-active" href="../alert/alert.html">DOCUMENTATION</a>
-            </li>
-            <li class="list-item">
-                <a class="link" href="https://github.com/zoyatanweer/falcon-ui">GITHUB</a>
-            </li>
-        </ul>
+      <div class="nav-brand">FALCON UI</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item">
+          <a class="link" href="/index.html">HOME</a>
+        </li>
+        <li class="list-item">
+          <a class="link link-active" href="../alert/alert.html"
+            >DOCUMENTATION</a
+          >
+        </li>
+        <li class="list-item">
+          <a class="link" href="https://github.com/zoyatanweer/falcon-ui"
+            >GITHUB</a
+          >
+        </li>
+      </ul>
     </nav>
     <nav class="side-navigation-container">
-
-        <div class="nav header">
-            <h2 class="nav-sub-header">Components</h2>
-            <ul>
-                <li class="nav-content">
-                    <a class="side-nav" href="../alert/alert.html">Alerts</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../badge/badge.html">Badge</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../button/button.html">Button</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../card/card.html">Card</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../image/image.html">Image</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav link-active" href="../input/input.html">Input</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../modal/modal.html">Modal</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../rating/rating.html">Rating</a>
-                </li>
-                <li class="nav-content">
-                    <a class="side-nav" href="../typography/typography.html">Text Utilities</a>
-                </li>
-            </ul>
-        </div>
+      <div class="nav header">
+        <h2 class="nav-sub-header">Components</h2>
+        <ul>
+          <li class="nav-content">
+            <a class="side-nav" href="../alert/alert.html">Alerts</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../badge/badge.html">Badge</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../button/button.html">Button</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../card/card.html">Card</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../grid/grid.html">Grid</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../image/image.html">Image</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav link-active" href="../input/input.html">Input</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../lists/lists.html">Lists</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../modal/modal.html">Modal</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../navigation/navigation.html"
+              >Navigation</a
+            >
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../rating/rating.html">Rating</a>
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../typography/typography.html"
+              >Text Utilities</a
+            >
+          </li>
+          <li class="nav-content">
+            <a class="side-nav" href="../toast/toast.html">Toast</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- input -->
     <main class="page-content">
-        <section class="section-input">
-            <h1 class="head-topic">Input</h1>
-            <p class="section-about">
-                Inputs are used to take the information typed by the user.
-            </p>
+      <section class="section-input">
+        <h1 class="head-topic">Input</h1>
+        <p class="section-about">
+          Inputs are used to take the information typed by the user.
+        </p>
 
-            <h2 class="sub-header">Textarea</h2>
-            <p class="section-about">The textarea is a multi-line text input control. It is widely used in a form, to collect user inputs like comments or feedbacks. 
-            <br>To use textarea, use the class <span>textbox</span>.
-            </p>
-            <div class="textbox-input">
-                <textarea class="textarea"></textarea>
-            </div>  
-            <iframe class="textarea-iframe" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520class%253D%2522textarea%2522%253E%253C%252Ftextarea%253E%250A" style="width: 455px; height: 207px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-            </iframe>
-            <div class="divider"></div>
+        <h2 class="sub-header">Textarea</h2>
+        <p class="section-about">
+          The textarea is a multi-line text input control. It is widely used in
+          a form, to collect user inputs like comments or feedbacks. <br />To
+          use textarea, use the class <span>textbox</span>.
+        </p>
+        <div class="textbox-input">
+          <textarea class="textarea"></textarea>
+        </div>
+        <iframe
+          class="textarea-iframe"
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520class%253D%2522textarea%2522%253E%253C%252Ftextarea%253E%250A"
+          style="
+            width: 455px;
+            height: 207px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <div class="divider"></div>
 
-            <h2 class="sub-header">Label Input</h2>
-            <p class="section-about">Label Input has label present on top of the input field. This signifies the user of the value to be entered in respective fields.</p>
-            <div class="label-input">
-                <div class="input-box">
-                <label for="username" class="input label">Username</label>
-                <input id="username" type="text" class="input">
-                </div>
-                <div class="input-box">
-                <label for="wrong-password" class="input label">Password</label>
-                <input id="wrong-password" type="password" class="input wrong-password">
-                <p class="msg-error">Password incorrect. Please try again.</p>
-                </div>
-                <div class="input-box">
-                <label for="weak-password" class="input label">Password</label>
-                <input id="weak-password" type="password" class="input weak-password">
-                <p class="msg-weak">Please enter strong password.</p>
-                </div>
-                <div class="input-box">
-                <label for="new-password" class="input label">New password</label>
-                <input id="new-password" type="password" class="input">
-                </div>
-                <div class="input-box">
-                <label for="confirm-password" class="input label">Confirm password</label>
-                <input id="confirm-password" type="password" class="input right-password">
-                <p class="msg-success">Password matched.</p>
-                </div>
-            
-            </div>
+        <h2 class="sub-header">Label Input</h2>
+        <p class="section-about">
+          Label Input has label present on top of the input field. This
+          signifies the user of the value to be entered in respective fields.
+        </p>
+        <div class="label-input">
+          <div class="input-box">
+            <label for="username" class="input label">Username</label>
+            <input id="username" type="text" class="input" />
+          </div>
+          <div class="input-box">
+            <label for="wrong-password" class="input label">Password</label>
+            <input
+              id="wrong-password"
+              type="password"
+              class="input wrong-password"
+            />
+            <p class="msg-error">Password incorrect. Please try again.</p>
+          </div>
+          <div class="input-box">
+            <label for="weak-password" class="input label">Password</label>
+            <input
+              id="weak-password"
+              type="password"
+              class="input weak-password"
+            />
+            <p class="msg-weak">Please enter strong password.</p>
+          </div>
+          <div class="input-box">
+            <label for="new-password" class="input label">New password</label>
+            <input id="new-password" type="password" class="input" />
+          </div>
+          <div class="input-box">
+            <label for="confirm-password" class="input label"
+              >Confirm password</label
+            >
+            <input
+              id="confirm-password"
+              type="password"
+              class="input right-password"
+            />
+            <p class="msg-success">Password matched.</p>
+          </div>
+        </div>
 
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2509%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522input%2520label%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522username%2522%2520type%253D%2522text%2522%2520class%253D%2522input%2522%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2509%253Clabel%2520for%253D%2522wrong-password%2522%2520class%253D%2522input%2520label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522wrong-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2520wrong-password%2522%253E%250A%2520%2520%2509%253Cp%2520class%253D%2522msg-error%2522%253EPassword%2520incorrect.%2520Please%2520try%2520again.%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522weak-password%2522%2520class%253D%2522input%2520label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522weak-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2520weak-password%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522msg-weak%2522%253EPlease%2520enter%2520strong%2520password.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522new-password%2522%2520class%253D%2522input%2520label%2522%253ENew%2520password%253C%252Flabel%253E%250A%2520%2520%2520%2509%253Cinput%2520id%253D%2522new-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522confirm-password%2522%2520class%253D%2522input%2520label%2522%253EConfirm%2520password%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522confirm-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2520right-password%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522msg-success%2522%253EPassword%2520matched.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520"style="width: 791px; height: 654px; border:0; transform: scale(1); overflow:hidden;"sandbox="allow-scripts allow-same-origin">
-            </iframe>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2509%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522input%2520label%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522username%2522%2520type%253D%2522text%2522%2520class%253D%2522input%2522%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2509%253Clabel%2520for%253D%2522wrong-password%2522%2520class%253D%2522input%2520label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522wrong-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2520wrong-password%2522%253E%250A%2520%2520%2509%253Cp%2520class%253D%2522msg-error%2522%253EPassword%2520incorrect.%2520Please%2520try%2520again.%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522weak-password%2522%2520class%253D%2522input%2520label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522weak-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2520weak-password%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522msg-weak%2522%253EPlease%2520enter%2520strong%2520password.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522new-password%2522%2520class%253D%2522input%2520label%2522%253ENew%2520password%253C%252Flabel%253E%250A%2520%2520%2520%2509%253Cinput%2520id%253D%2522new-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522confirm-password%2522%2520class%253D%2522input%2520label%2522%253EConfirm%2520password%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522confirm-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2520right-password%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522msg-success%2522%253EPassword%2520matched.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520"
+          style="
+            width: 791px;
+            height: 654px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
 
-            <div class="divider"></div>
+        <div class="divider"></div>
 
-            <h2 class="sub-header">Placeholder Input</h2>
-            <p class="section-about">Placeholder Input has a placeholder value inside the input field.</p>
-            <div class="placeholder-input">
-                <div class="input-box">
-                <label for="pl-username" class="input label">Username</label>
-                <input id="pl-username" type="text" class="input" placeholder="Enter your username">
-                </div>
-                <div class="input-box">                
-                <label for="pl-password" class="input label">Password</label>
-                <input id="pl-password" type="password" class="input" placeholder="Enter your password">
-                </div>
-            </div>
-            <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522pl-username%2522%2520class%253D%2522input%2520label%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520id%253D%2522pl-username%2522%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253Clabel%2520for%253D%2522pl-password%2522%2520class%253D%2522input%2520label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520id%253D%2522pl-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520"style="width: 901px; height: 356px; border:0; transform: scale(1); overflow:hidden;"sandbox="allow-scripts allow-same-origin">
-            </iframe>
-           
-
-        </section>
+        <h2 class="sub-header">Placeholder Input</h2>
+        <p class="section-about">
+          Placeholder Input has a placeholder value inside the input field.
+        </p>
+        <div class="placeholder-input">
+          <div class="input-box">
+            <label for="pl-username" class="input label">Username</label>
+            <input
+              id="pl-username"
+              type="text"
+              class="input"
+              placeholder="Enter your username"
+            />
+          </div>
+          <div class="input-box">
+            <label for="pl-password" class="input label">Password</label>
+            <input
+              id="pl-password"
+              type="password"
+              class="input"
+              placeholder="Enter your password"
+            />
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522pl-username%2522%2520class%253D%2522input%2520label%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520id%253D%2522pl-username%2522%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520your%2520username%2522%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253Clabel%2520for%253D%2522pl-password%2522%2520class%253D%2522input%2520label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520id%253D%2522pl-password%2522%2520type%253D%2522password%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520"
+          style="
+            width: 901px;
+            height: 356px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </section>
     </main>
-</body>
+  </body>
 </html>
